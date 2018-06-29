@@ -6,7 +6,9 @@ function frameIt(){
   $('img').on("load", $('img').addClass('tasty'));
 }
 function pressIt(){
-  
+  $('#typing').on('keydown', function(key){
+    if(key.which==)
+  })
 }
 function submitIt(){
   

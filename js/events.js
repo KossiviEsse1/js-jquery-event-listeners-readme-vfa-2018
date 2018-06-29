@@ -3,7 +3,7 @@ function getIt(){
   $("p").on("click", alert("Hey!"));
 }
 function frameIt(){
-  $('img').on("load", $(this).addClass('tasty'))
+  $('img').on("load", function(){$("img").addClass('tasty')})
 }
 function pressIt(){
   $('#typing').on('keydown', function(key){
